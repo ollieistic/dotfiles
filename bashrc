@@ -23,19 +23,19 @@ export XDG_DATA_DIRS=/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
 #############################
 
 # Define colors
+GRAY='\[\e[90m\]' 
 ORANGE='\[\e[38;5;214m\]'  # bright orange from 256-color palette
 LIGHTBLUE='\[\e[94m\]'
 LIGHTRED='\[\e[91m\]'
 RESET='\[\e[0m\]'
 
-# Customize PS1:
-# hostname, username in light blue; directory in light red; $ in orange
-PS1=" ${LIGHTBLUE}\u@${LIGHTBLUE}\h ${LIGHTRED}\w ${ORANGE}\$ ${RESET}"
-
-
+# Get git branch function
 parse_git_branch() {
   git branch 2>/dev/null | grep '*' | sed 's/* //'
 }
+
+# PS1
+PS1="${GRAY}[\t] ${LIGHTBLUE} \u@\h${LIGHTBLUE}\$(git_branch=\$(parse_git_branch); if [ -n \"\$git_branch\" ]; then echo \" (\$git_branch)\"; fi) ${LIGHTRED}\w ${ORANGE}\$ ${RESET}"
 
 EXIT_CODE=$?
 
