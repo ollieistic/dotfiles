@@ -14,5 +14,10 @@ ln -sf "$HOME/dotfiles/kitty" "$HOME/.config/kitty"
 # Symlink for Rofi config
 ln -sf "$HOME/dotfiles/rofi" "$HOME/.config/rofi"
  
-# Symlink for wallpapers
+# Check if "~/Pictures" exists and creates it if it doesn't
+if [ ! -d "$HOME/Pictures" ]; then
+    mkdir -p "$HOME/Pictures"
+    echo "Created ~/Pictures directory."
+
+# Symlink for wallpapers folder
 ln -sf "$HOME/dotfiles/wallpapers" "$HOME/Pictures/wallpapers"
