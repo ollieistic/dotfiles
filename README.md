@@ -9,6 +9,7 @@ These dotfiles help me keep my environment consistent and easily reproducible ac
 - Text Editor: **Nano** & **VSCodium**
 - Browser: **Waterfox**
 - Wallpaper Manager: **Hyprpaper**
+- Screenshot Manager: **Flameshot**
 
 ## Setup
 I am currently too lazy to make a setup guide. I still have a lot of customizing and configuring to do.
