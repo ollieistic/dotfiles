@@ -11,5 +11,8 @@ ln -sf "$HOME/dotfiles/hypr" "$HOME/.config/hypr"
 # Symlink for Kitty config
 ln -sf "$HOME/dotfiles/kitty" "$HOME/.config/kitty"
 
+# Symlink for Rofi config
+ln -sf "$HOME/dotfiles/rofi" "$HOME/.config/rofi"
+ 
 # Symlink for wallpapers
 ln -sf "$HOME/dotfiles/wallpapers" "$HOME/Pictures/wallpapers"
