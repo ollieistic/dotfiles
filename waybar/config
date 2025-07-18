@@ -1,0 +1,74 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+
+  "modules-center": [
+    "cpu",
+    "clock",
+    "memory"
+  ],
+
+  "modules-right": [
+    "pulseaudio",
+    "bluetooth",
+    "network",
+    "custom/powermenu"
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "all-outputs": true
+  },
+
+  "cpu": {
+    "format": "  {usage}%",
+    "tooltip": true,
+    "interval": 2
+  },
+
+  "memory": {
+    "format": "  {used:0.1f}G / {total:0.1f}G",
+    "tooltip": true,
+    "interval": 5
+  },
+
+  "clock": {
+    "format": "{:%a %b %d | %H:%M}",
+    "tooltip": true,
+    "interval": 60
+  },
+
+  "bluetooth": {
+    "format-on": "󰂯 Enabled",
+    "format-off": "󰂯 Disabled",
+    "format-no-controller": "󰂯  No Controller", 
+    "tooltip": true
+  },
+
+  "network": {
+    "format-wifi": "󰖩  {essid}",
+    "format-ethernet": "󰖩  {ifname}: {ipaddr}",
+    "format-disconnected": "󰖪  Disconnected",
+    "tooltip": true
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": "  Muted",
+    "tooltip": true,
+    "on-click": "pavucontrol"
+  },
+
+  "custom/powermenu": {
+    "exec": "echo \"\"",
+    "format-icon": " {output}",
+    "on-click": "~/dotfiles/scripts/powermenu.sh"
+  }
+}
+
