@@ -49,3 +49,5 @@ EXIT_CODE=$?
 
 export XCURSOR_THEME=Bibata
 export XCURSOR_SIZE=20
+export XDG_DATA_DIRS="$HOME/.local/share/flatpak/exports/share:/usr/local/share:/usr/share"
+export XDG_DATA_DIRS="$HOME/.local/share/flatpak/exports/share:/usr/local/share:/usr/share"
