@@ -1,0 +1,8 @@
+[urgency_low]
+    script = ~/scripts/notifs/notif-sound.sh
+
+[urgency_normal]
+    script = ~/scripts/notifs/notif-sound.sh
+
+[urgency_critical]
+    script = ~/scripts/notifs/notif-sound.sh

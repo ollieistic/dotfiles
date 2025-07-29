@@ -18,7 +18,7 @@
     "bluetooth",
     "network",
     "custom/powermenu"
-  ],
+ ],
 
   "hyprland/workspaces": {
     "format": "{name}",
@@ -53,7 +53,7 @@
 
   "network": {
     "format-wifi": "󰖩  {essid}",
-    "format-ethernet": "󰖩  {ifname}: {ipaddr}",
+    "format-ethernet": "󰖩  Connected",
     "format-disconnected": "󰖪  Disconnected",
     "tooltip": true
   },

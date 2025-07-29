@@ -1,10 +1,6 @@
-##################################
-#### Power Menu Custom Module ####
-##################################
-
 #!/bin/bash
 
-CHOICE=$(echo -e " Lock\n Logout\n Reboot\n Shutdown" | rofi -dmenu -i -p "Power Menu:")
+CHOICE=$(echo -e " Lock\n Logout\n Reboot\n Shutdown" | rofi -dmenu -i -p "Power Menu:" -theme ~/.config/rofi/config.rasi)
 
 case "$CHOICE" in
   " Lock")
