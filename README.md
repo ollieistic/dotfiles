@@ -1,15 +1,19 @@
-# Ollieistic's Dotfiles
-This repository contains my personal configuration files (dotfiles) for my Arch Linux setup with Hyprland.
-These dotfiles help me keep my environment consistent and easily reproducible across machines. Changes are backed up automatically to GitHub.
+> [!WARNING]
+> These dotfiles are **ONLY** made for my system.  
+> Do not send in PRs and/or issues.
 
-## Programs I use
-- Terminal: **Kitty**
-- File Manager: **Dolphin**
+## My Dotfiles
+This repository contains all my dotfiles, which consists mostly of configuration files for my Arch Hyprland setup.
+
+## Software I use
+- Browser: **Librewolf**
+- File Manager: **Nautilus**
 - App Launcher: **Rofi**
-- Text Editor: **Nano** & **VSCodium**
-- Browser: **Waterfox**
+- Code IDE/Editor: **Neovim/Vim (occasionally VSCodium)**
 - Wallpaper Manager: **Hyprpaper**
 - Screenshot Manager: **Flameshot**
+- Image Manipulation: **GIMP**
+- Email Client: **Thunderbird**
 
-## Setup
-I am currently too lazy to make a setup guide. I still have a lot of customizing and configuring to do.
+> [!NOTE]
+> You can absolutely use my dotfiles if you want but you are required to set them up yourself. You are requried to fix all eventual issues yourself and cannot come to me complaining and asking why **my dotfiles** do not work on your system.

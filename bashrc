@@ -1,26 +1,14 @@
-####################
-####  ~/.bashrc ####
-####################
+# ~/.bashrc
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 
-#################
-#### Aliases ####
-#################
-
-alias wofidark='GTK_THEME=Adwaita:dark wofi --show drun'
+# Aliases
+alias gparted='GDK_BACKEND=x11 gparted'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# Add flatpaks to wofi
-export XDG_DATA_DIRS=/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
-
-
-#############################
-#### Shell Customization ####
-#############################
 
 # Define colors
 GRAY='\[\e[90m\]' 
@@ -43,10 +31,7 @@ EXIT_CODE=$?
 # Default: PS1='[\u@\h \W]\$ '
 
 
-################
-#### Cursor ####
-################
-
+# Cursor
 export XCURSOR_THEME=Bibata
 export XCURSOR_SIZE=20
 export XDG_DATA_DIRS="$HOME/.local/share/flatpak/exports/share:/usr/local/share:/usr/share"
