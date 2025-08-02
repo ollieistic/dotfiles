@@ -1,19 +1,27 @@
 > [!WARNING]
-> These dotfiles are **ONLY** made for my system.  
-> Do not send in PRs and/or issues.
+> These dotfiles are **ONLY** meant for **MY** system.  
+> There's no guarantee they will work out of the box on yours.  
+> Do NOT send in any PRs and/or issues.
 
 ## My Dotfiles
-This repository contains all my dotfiles, which consists mostly of configuration files for my Arch Hyprland setup.
+This repository holds my dotfiles for an Arch Linux setup with Hyprland, containing customized configurations for various applications and system settings. 
+Nearly all of them written made from scratch by me, sometimes with help from others. 
 
-## Software I use
+## Some of the software I use
 - Browser: **Librewolf**
+- Terminal: **Kitty**
+- Code IDE: **Neovim** (occassionally VSCodium)
 - File Manager: **Nautilus**
-- App Launcher: **Rofi**
-- Code IDE/Editor: **Neovim/Vim (occasionally VSCodium)**
-- Wallpaper Manager: **Hyprpaper**
-- Screenshot Manager: **Flameshot**
+- Screenshot Manager: **Hyprshot**
 - Image Manipulation: **GIMP**
-- Email Client: **Thunderbird**
+- App Launcher: **Rofi**
+- Emoji Picker: **Smile** (available on Flathub)
+
+As you may be able to tell, I prefer free and open-source software (FOSS).
+
+---
 
 > [!NOTE]
-> You can absolutely use my dotfiles if you want but you are required to set them up yourself. You are requried to fix all eventual issues yourself and cannot come to me complaining and asking why **my dotfiles** do not work on your system.
+> You can, of course, use any or all of my dotfiles.
+> However, please note that if you choose to do so, you are responsible for addressing any issues that may arise on your system.
+> Using someone else's dotfiles comes with its own risks, so proceed with caution.

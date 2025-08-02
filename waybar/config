@@ -16,8 +16,7 @@
   "modules-right": [
     "pulseaudio",
     "bluetooth",
-    "network",
-    "custom/powermenu"
+    "network"
  ],
 
   "hyprland/workspaces": {
@@ -47,7 +46,7 @@
   "bluetooth": {
     "format-on": "󰂯 Enabled",
     "format-off": "󰂯 Disabled",
-    "format-no-controller": "󰂯  No Controller", 
+    "format-no-controller": "󰂯  Not Available", 
     "tooltip": true
   },
 
@@ -63,12 +62,6 @@
     "format-muted": "  Muted",
     "tooltip": true,
     "on-click": "pavucontrol"
-  },
-
-  "custom/powermenu": {
-    "exec": "echo \"\"",
-    "format-icon": " {output}",
-    "on-click": "~/dotfiles/scripts/powermenu.sh"
   }
 }
 
