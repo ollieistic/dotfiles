@@ -29,3 +29,4 @@ EXIT_CODE=$?
 
 
 # Default: PS1='[\u@\h \W]\$ '
+. "$HOME/.aftman/env"
