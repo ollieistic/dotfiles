@@ -3,7 +3,6 @@ hyprlock
 wayland
 xorg-xwayland
 wayland-protocols
-wlroots
 swww
 waybar
 kitty
@@ -11,6 +10,7 @@ dunst
 pipewire
 pipewire-pulse
 pipewire-alsa
+wireplumber
 alsa-utils
 polkit
 pavucontrol
@@ -24,6 +24,6 @@ fastfetch
 git
 base-devel
 vlc
-htop
+btop
 nerd-fonts
 libnotify

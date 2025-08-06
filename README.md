@@ -9,7 +9,7 @@ This repository contains all my dotfiles for my Arch Linux setup with Hyprlan. I
 ## Installation
 ⚠️ **WARNING:** This will change your keyboard layout and mirror servers to swedish!
 
-If you'd like to use my dotfiles, please run the following commands individually:
+If you'd still like to use my dotfiles after reading the warnings above, please run the following commands individually:
 ```
 git clone https://github.com/ollieistic/dotfiles.git ~/dotfiles
 cd ~/dotfiles/installation
