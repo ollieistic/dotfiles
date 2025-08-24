@@ -8,3 +8,4 @@ alias grep='grep --color=auto'
 PROMPT='%F{blue}%n@%m %F{red}%~%F %F{yellow}%f '
 
 export PATH=$PATH:/home/ollieistic/.spicetify
+export QT_QPA_PLATFORMTHEME=qt5ct
