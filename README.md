@@ -5,8 +5,7 @@
 ## My Dotfiles
 This repository holds all my personal configuration files (dotfiles) for Hyprland. They are made for Arch but should work on any other Linux distro.
 
-A couple configurations are not made by me and are taken from other public repositories.  
-I'm sorry for not giving credit, I've forgotten the original authors (yes, I know I should've pushed to GitHub earlier).
+A couple configurations are not made by me and are taken from other public repositories.
 
 ---
 
