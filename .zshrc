@@ -27,7 +27,7 @@ source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 # Aliases
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias grep='grep --color=auto'
 alias p='sudo pacman'
 alias nv='nvim'
