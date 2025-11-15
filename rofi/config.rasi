@@ -63,7 +63,7 @@ configuration {
 	display-keys: "Keys";
 
 	terminal: "rofi-sensible-terminal";
-	font: "JetBrains Mono Nerd 10";
+	font: "Ubuntu Nerd Font 10";
 	sort: false;
 	threads: 0;
 	click-to-exit: true;
